@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Coruscant Guard</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="exo1_styles2.css"/>
+	</head>
+	<body>
+		<ul class="menu">
+		<li><a href="exo1_page0.html.bak">Home</a></li>
+		<li><a href="exo1_page5.html">Commanders</a></li>
+		<li><a href="exo1_page1.html">Medics</a></li>
+		<li><a href="exo1_page2.html.bak">Troopers</a></li>
+		<li><a href="exo1_page3.html">Shinies</a></li>
+		<li><a href="exo1_page6.html">Snippets</a></li>
+		<li><a href="exo1_page4.html.bak">Masterpost</a></li>
+		</ul>
+	<h1>Commanders</h1>
+	<p>The-Troll-Of-The-Bridge</p>
+	<h2>[Title]</h2>
+	<h3>Rough date</h3>
+	<p>Lorem Ipsum</p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	</body>
+	</html>

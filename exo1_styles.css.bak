@@ -1,0 +1,79 @@
+
+/* Paramètres par défaut pour l'ensemble de la page */
+body {
+	background-color: #f5dbb3 ;
+	font-family: Calibri;
+	font-size: 14px;
+	margin:10px;
+}
+
+/* Premier paragraphe du document : cela correspond à votre nom */
+p:first-of-type {
+	text-align:center;
+	font-weight: bold;
+	font-size: 15px;
+}
+/* Modification des balises de mise en valeur */
+strong {
+	background-color: #d4a14e;
+	color: #fff;
+}
+em {
+	color: #d4a14e;
+}
+/* Paragraphe par défaut */
+p {
+	padding:5px;
+}
+/* Titres de niveau 1 */
+h1 {
+	text-align: center;
+	color: #855509;
+	background-color: #d4a14e;
+	padding: 30px;
+	font-size: 35px;
+	margin:0px;
+}
+/* Titres de niveau 2 */
+h2 {
+	color: #d4a14e;
+	border-bottom: 3px solid #d4a14e;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+/* Images du site */
+img {
+	height: 220px;
+	padding: 5px;
+	margin-left:10px;
+	border: 1px solid #666;
+	background-color: #fff;
+}
+
+/* Mise en forme du menu */ 
+.menu {
+	margin:0px;
+	padding:0px;
+	background-color: #d4a14e;
+}
+	.menu li {
+		display: inline-block;
+	}
+	/* Liens du menu */	
+	.menu a {
+		width:100px;
+		text-align:center;
+		display: block;
+		padding:5px;
+		background-color: #855509;
+		color: #d4a14e ;
+		font-weight: bold;
+		text-decoration:none;
+	}
+	/* Liens du menu au survol de la souris */
+	.menu a:hover {
+		background-color: #c7cdfe;
+	}
+
+

@@ -1,0 +1,151 @@
+
+/* Paramètres par défaut pour l'ensemble de la page */
+
+body {
+	background-color: #e8e8e8 ;
+	font-family: Arial;
+	font-size: 15px;
+	margin:150px 0px 0px 0px;
+}
+
+
+/* Premier paragraphe du document : cela correspond à votre nom */
+p:first-of-type {
+	text-align:center ;
+	font-weight: bold ;
+	font-size: 15px ;
+	position: fixed ; 
+	top: 20px ;
+	right: 30px ;
+	
+}
+p:first-of-type:before {
+	content: 'by ' ;
+}
+/* Modification des balises de mise en valeur */
+strong {
+	color: #cc1010 ;
+}
+em {
+	color: #206aaa;
+}
+p, h2, ul, ol  {
+	max-width: 900px;
+	margin: 0 auto ;	
+}
+/* Paragraphe par défaut */
+p{
+	padding:5px;
+}
+/* Titres de niveau 1 */
+h1 {
+	position: fixed;
+	top: 0px;
+	color: #1a1a1a;
+	width: 100%;
+	padding: 15px;
+	background-color: #cc1010;
+	height: 40px;
+	font-size: 35px;
+	margin:0px 0px 60px 0px;
+}
+/* Titres de niveau 2 */
+h2 {
+	color: #efe9e7;
+	background-color: #cc1010 ;
+	padding: 10px 10px 10px 20px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	border-radius: 20px 0px 0px 20px ;
+	animation-name: intro;
+    animation-duration: 3s;
+}
+/* Titres de niveau 3 */
+h3 {
+	font-size: 18px
+	color: #cc1010;
+	padding: 0px 10px 10px 20px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-left: 30px;
+	
+}
+
+@keyframes intro {
+    from {background-color: #fff;color:#fff}
+    to {background-color: #cc1010 ;color: #efe9e7;}
+}
+p a {
+	border: #cc1010  1px solid ;
+	padding: 8px 20px 8px 20px ; 
+	color: 	#cc1010;
+	border-radius: 5px;
+   	text-decoration: none ;
+	-webkit-transition-duration: 2s ; 
+   	-webkit-transition-property : background-color color ;
+   	transition-duration: 2s ; 
+   	transition-property : background-color color ;
+}
+p a:hover {
+	background-color: #4c4c47 ;
+	color: #fff ;
+}
+/* Images du site */
+img  {
+	height: 220px;
+	border: 20px solid #222;
+	background-color: #fff;
+	display: block;
+	margin: 30px auto ;
+	-moz-box-shadow: 0px 0px 5px 2px #656565;
+	-webkit-box-shadow: 0px 0px 5px 2px #656565;
+	-o-box-shadow: 0px 0px 5px 2px #656565;
+	box-shadow: 0px 0px 5px 2px #656565;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=NaN, Strength=5);
+}
+
+/* Mise en forme du menu */ 
+.menu {
+	position: fixed;
+	z-index: 100 ;
+	right: 0px;
+	top: 65px;
+	height: 30px;
+	width: 100%;
+	max-width: 100%;
+	margin: 0 ;
+	background-color: #1a1a1a;
+	text-align: right;
+	padding: 5px 30px;
+	-moz-box-shadow: 0px 3px 5px 0px #656565;
+	-webkit-box-shadow: 0px 3px 5px 0px #656565;
+	-o-box-shadow: 0px 3px 5px 0px #656565;
+	box-shadow: 0px 3px 5px 0px #656565;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=180, Strength=5);
+}
+.menu li {
+	display: inline-block;
+}
+/* Liens du menu */	
+.menu a {
+	width:100px;
+	height: 20px;
+	line-height: 20px;
+	text-align:center;
+	display: block;
+	padding:5px;
+	color: #efe9e7;
+	background-color: #4c4c47 ;
+	font-weight: bold;
+	text-decoration:none;
+	border-radius: 5px;
+	-webkit-transition: background-color 1s; /* Safari */
+   	transition: background-color 2s;
+   	border-width: 0px;
+}
+/* Liens du menu au survol de la souris */
+.menu a:hover {
+	background-color: #cc1010;
+}
+
+

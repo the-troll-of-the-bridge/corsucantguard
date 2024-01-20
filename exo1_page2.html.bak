@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Coruscant Guard</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="exo1_styles2.css"/>
+	</head>
+	<body>
+		<ul class="menu">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="exo1_page5.html">Commanders</a></li>
+		<li><a href="exo1_page1.html">Medics</a></li>
+		<li><a href="exo1_page2.html.bak">Troopers</a></li>
+		<li><a href="exo1_page3.html">Shinies</a></li>
+		<li><a href="exo1_page6.html">Snippets</a></li>
+		<li><a href="exo1_page4.html.bak">Masterpost</a></li>
+		</ul>
+	<h1>Troopers</h1>
+	<p>The-Troll-Of-The-Bridge</p>
+	<h2>Blaze</h2>
+	<h3>Slicer - CT-0420 - She/Her</h3>
+	<p>She's best friend with Ride.</p>
+	<p>She is missing a kidney.</p>
+	
+	<h2>Ride</h2>
+	<h3>CT-6969 - He/Him</h3>
+	<p>He is best friend with Blaze.</p>
+	<p></p>
+	<p></p>
+	
+	<h2>Sunny</h2>
+	<h3>CT-4685 - He/Him</h3>
+	<p>Fox's oldest child.</p>
+	<p>He was part of the second wave of shinies sent to the guard after most of the Old Guard was decomissioned.</p>
+	<p>He was killed by Fox himself during a blackout where he was ordered to get rid of the entire squad he took with him.</p>
+	
+	<h2>Doll</h2>
+	<h3>Mechanic - CT-2958 - They/Them</h3>
+	<p>They have 3 prosthetic limbs (2arms and 1 leg).</p>
+	<p>They used to be on patrol duty.</p>
+	<p>They keep scaring the shinies and making stupid jokes about their limbs.<em>"Haha, need a hand?"</em></p>
+	<p>They keep giving different answers as to how they lost their limbs.</p>
+
+	<h2>Seven</h2>
+	<h3>CT-1307 - He/Him</h3>
+	<p>He's Fox's second oldest kid.</p>
+	<p>He doesn't speak much but always has a kind word for his brothers.</p>
+	<p>He used to have a name, back when he first joined the guard, but after a few reconditionings, he doesn't see the point anymore.</p>
+	
+	<h2>Shiny</h2>
+	<h3>CT-2984 - He/Him</h3>
+	<p>One of the oldest of the guards.</p>
+	<p>He has many scars, especially on his head. He shaves his head because his scars cause his hair to grow unevenly.</p>
+	<p>Looks intimidating but a sweetheart. He always tries to help the shinies adapt.</p>
+	<p></p>
+	<p></p>
+	<p></p>
+	
+
+	
+</body></html>
